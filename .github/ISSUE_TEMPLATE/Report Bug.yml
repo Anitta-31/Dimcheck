@@ -108,22 +108,18 @@ body:
         - Other
     validations:
       required: true
-  - type: dropdown
-    id: os
+  - type: textarea
+    id: os-version
     attributes:
-      label: On what operating system are you experiencing the issue?
-      description: You don't have to test it on every os.
-      multiple: true
-      options:
-        - Windows
-        - Mac OSX
-        - Linux
-        - iOS
-        - Android
-        - Other
+      label: Steps To Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1. In this environment...
+        2. With this config...
+        3. Run '...'
+        4. See error...
     validations:
-      required: true
-
+      required: false
   - type: checkboxes
     id: pr
     attributes:
