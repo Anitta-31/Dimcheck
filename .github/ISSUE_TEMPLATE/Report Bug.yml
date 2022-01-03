@@ -6,6 +6,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report for [Graffino](https://graffino.com). Note that this template is only for bug reports.
+   - type: dropdown
     id: bug-type
     attributes:
       label: Bug type
