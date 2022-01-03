@@ -111,13 +111,11 @@ body:
   - type: textarea
     id: os-version
     attributes:
-      label: Steps To Reproduce
-      description: Steps to reproduce the behavior.
+      label: Browser version
+      description: Descriptive browser and OS version information
       placeholder: |
-        1. In this environment...
-        2. With this config...
-        3. Run '...'
-        4. See error...
+        navigator.userAgent
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36'
     validations:
       required: false
   - type: checkboxes
